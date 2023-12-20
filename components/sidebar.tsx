@@ -25,37 +25,37 @@ const routes = [
   {
     lable: 'Conversation',
     icon: MessageSquare,
-    href: '/dashboard',
+    href: '/conversation',
     color: 'text-violet-500',
   },
   {
     lable: 'Image Generation',
     icon: ImageIcon,
-    href: '/dashboard',
+    href: '/image',
     color: 'text-pink-700',
   },
   {
     lable: 'Video Generation',
     icon: VideoIcon,
-    href: '/dashboard',
+    href: '/video',
     color: 'text-orange-700',
   },
   {
     lable: 'Music Generation',
     icon: Music,
-    href: '/dashboard',
+    href: '/music',
     color: 'text-emerald-500',
   },
   {
     lable: 'Code Generation',
     icon: Code,
-    href: '/dashboard',
+    href: '/code',
     color: 'text-green-700',
   },
   {
     lable: 'Settings',
     icon: Settings,
-    href: '/dashboard',
+    href: '/settings',
   },
 ];
 const Sidebar = () => {
