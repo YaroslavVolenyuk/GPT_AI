@@ -6,11 +6,14 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-export async function POST(req: Request) {
+export async function POST(req) {
   try {
     const { userID } = auth;
+    console.log(auth);
     const body = await req.json;
+
     const { messages } = body;
+    console.log(messages);
     if (!userID) {
       return new NextResponse('Unauthorized', { status: 401 });
     }
