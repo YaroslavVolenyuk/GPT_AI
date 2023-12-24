@@ -29,7 +29,8 @@
     ".next/types/**/*.ts",
     "app/api/conversation/route.js",
     "components/ui/button.tsx",
-    "app/(dashboard)/(routes)/conversation/page.jsx"
+    "app/(dashboard)/(routes)/conversation/page.jsx",
+    "components/empty.jsx"
   ],
   "exclude": ["node_modules"]
 }
