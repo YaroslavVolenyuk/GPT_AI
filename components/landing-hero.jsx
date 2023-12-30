@@ -48,7 +48,7 @@ const LandingHero = () => {
         Create content 10 times faster.
       </div>
       <div>
-        <Link href={isSignedIn ? '/dashboard' : 'sign-up'}>
+        <Link href={'/dashboard'}>
           <Button
             style={{
               color: 'white' /* text-transparent */,
