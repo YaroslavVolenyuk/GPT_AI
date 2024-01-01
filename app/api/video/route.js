@@ -14,9 +14,9 @@ export async function POST(req) {
 
     const { prompt } = body;
 
-    if (!userId) {
-      return new NextResponse('Unauthorized', { status: 401 });
-    }
+    // if (!userId) {
+    //   return new NextResponse('Unauthorized', { status: 401 });
+    // }
 
     if (!prompt) {
       return new NextResponse('Prompt is required', { status: 400 });
